@@ -7,19 +7,19 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-fastapi = "^0.70.0"
-uvicorn = "^0.15.0"
-playwright = "^1.16.1"
-polars = "^0.13.4"
-scikit-learn = "^0.24.2"
-transformers = "^4.11.3"
+fastapi = "^0.112.2"
+uvicorn = "^0.30.6"
+playwright = "^1.46.0"
+polars = "^1.5.0"
+scikit-learn = "^1.5.1"
+transformers = "^4.44.2"
 
 [tool.poetry.dev-dependencies]
-pytest = "^6.2.5"
-hypothesis = "^6.23.3"
-black = "^21.9b0"
-isort = "^5.9.3"
-flake8 = "^3.9.2"
+pytest = "^8.3.2"
+hypothesis = "^6.111.2"
+black = "^24.8.0"
+isort = "^5.13.2"
+flake8 = "^7.1.1"
 ruff = "^0.6.2"
 
 [build-system]

@@ -1,0 +1,29 @@
+{
+  "name": "laptopwise",
+  "version": "1.0.0",
+  "description": "This project aims to help users find the best value-for-money laptops by providing up-to-date comparisons based on price, performance, and user ratings.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octrow/LaptopWise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/octrow/LaptopWise/issues"
+  },
+  "homepage": "https://github.com/octrow/LaptopWise#readme",
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "framer-motion": "^11.3.30",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.5.4"
+  }
+}

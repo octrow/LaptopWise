@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "laptopwise"
+version = "0.1.0"
+description = "A tool to compare laptops and find the best value for money"
+authors = ["Daniil Petrov <octrow@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.70.0"
+uvicorn = "^0.15.0"
+playwright = "^1.16.1"
+polars = "^0.13.4"
+scikit-learn = "^0.24.2"
+transformers = "^4.11.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+hypothesis = "^6.23.3"
+black = "^21.9b0"
+isort = "^5.9.3"
+flake8 = "^3.9.2"
+ruff = "^0.6.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
